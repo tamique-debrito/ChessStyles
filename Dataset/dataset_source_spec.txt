@@ -1,0 +1,6 @@
+Data specification:
+	Total games					: ~1000
+	Unique players				: ~25
+	ELO range				    : 1000-2000
+	Games per player			: ~40 = 1000/25
+	Other constraints			: Games should all be from last couple of months

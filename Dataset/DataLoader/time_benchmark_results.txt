@@ -1,0 +1,42 @@
+Tensor creation:
+
+    Timing 100 iterations:
+        Single-channel:
+            Empty board: 2 ms
+            Sparse board: 7 ms
+            Medium-fill board: 20 ms
+            Full board: 32 ms
+        Multi-channel:
+            Empty board: 1 ms
+            Sparse board: 9 ms
+            Medium-fill board: 20 ms
+            Full board: 32 ms
+
+    Timing 1000 iterations:
+        Single-channel:
+            Empty board: 13 ms
+            Sparse board: 74 ms
+            Medium-fill board: 209 ms
+            Full board: 312 ms
+        Multi-channel:
+            Empty board: 14 ms
+            Sparse board: 73 ms
+            Medium-fill board: 203 ms
+            Full board: 316 ms
+
+    Timing 10000 iterations:
+        Single-channel:
+            Empty board: 125 ms
+            Sparse board: 736 ms
+            Medium-fill board: 2040 ms
+            Full board: 3227 ms
+        Multi-channel:
+            Empty board: 130 ms
+            Sparse board: 757 ms
+            Medium-fill board: 2066 ms
+            Full board: 3482 ms
+
+Loading GameDataset:
+    Passed board strings (channel not applicable) (15 s)
+    Passed tensors single-channel (46 s)
+    Passed tensors multi-channel (45 s)
